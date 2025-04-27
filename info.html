@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Guide for Tag Price Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            background:  linear-gradient(to bottom, lightgray);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+        }
+        p, li {
+            color: #34495e;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Guide for Tag Price Generator</h1>
+
+    <div class="section" id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to the <strong>Tag Price Generator</strong>, your go-to tool for creating and managing product price tags. This guide will help you navigate the application and make the most out of its features. Whether you're adding items, editing descriptions, or managing images, this guide has you covered.</p>
+    </div>
+
+    <div class="section" id="getting-started">
+        <h2>Getting Started</h2>
+        <p>To begin, open the application in your browser. You'll see the following sections:</p>
+        <ul>
+            <li><strong>Company Information:</strong> Fill in details like company name, description, contact info, and location.</li>
+            <li><strong>Item Information:</strong> Add product details, including name, image, price, and structured descriptions.</li>
+            <li><strong>Interactive Table:</strong> View added items in a table format, where you can edit or delete entries dynamically.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="adding-items">
+        <h2>Adding Items</h2>
+        <h3>Step-by-Step Guide</h3>
+        <ol>
+            <li><strong>Fill in the fields:</strong>
+                <ul>
+                    <li><strong>Item Name:</strong> Enter the name of your product.</li>
+                    <li><strong>Upload Image:</strong> Select an image file from your device (e.g., <code>.jpg</code>, <code>.png</code>).</li>
+                    <li><strong>Item Description:</strong> Write a structured description in the format <code>key=value</code>, separating each property with a new line. For example:
+                        <pre>
+memory=8GB
+ram=7GB
+opt=Good
+                        </pre>
+                    </li>
+                    <li><strong>Item Price:</strong> Specify the price of the item.</li>
+                </ul>
+            </li>
+            <li><strong>Submit the Item:</strong> Click the <strong>Add item</strong> button. Your item will appear in the table below.</li>
+        </ol>
+    </div>
+
+    <div class="section" id="editing-items">
+        <h2>Editing Items</h2>
+        <h3>What You Can Edit</h3>
+        <ul>
+            <li><strong>Text Fields:</strong> Item names, descriptions, and prices.</li>
+            <li><strong>Images:</strong> Replace product images with new ones.</li>
+            <li><strong>Description Items:</strong> Modify individual key-value pairs within the description.</li>
+        </ul>
+        <h3>How to Edit</h3>
+        <ol>
+            <li>Click the <strong>Edit</strong> button at the top of the page.</li>
+            <li>Follow the prompt: <em>"Click on the cell, image, or description item you want to edit."</em></li>
+            <li>Click the target item:
+                <ul>
+                    <li><strong>Text Fields:</strong> An input box will appear for editing.</li>
+                    <li><strong>Images:</strong> A file upload dialog will let you select a new image.</li>
+                    <li><strong>Description Items:</strong> Click the specific key-value pair (e.g., <code>memory=8GB</code>) to edit it.</li>
+                </ul>
+            </li>
+            <li>Press <strong>Enter</strong> or click outside the input box to save changes.</li>
+        </ol>
+    </div>
+
+    <div class="section" id="deleting-items">
+        <h2>Deleting Items</h2>
+        <h3>What You Can Delete</h3>
+        <ul>
+            <li>Entire rows in the table.</li>
+            <li>Individual description items (key-value pairs).</li>
+            <li>Images.</li>
+        </ul>
+        <h3>How to Delete</h3>
+        <ol>
+            <li>Click the <strong>Delete</strong> button at the top of the page.</li>
+            <li>Follow the prompt: <em>"Click on the cell, image, or description item you want to delete."</em></li>
+            <li>Click the target item:
+                <ul>
+                    <li><strong>Text Fields:</strong> The cell content will be cleared.</li>
+                    <li><strong>Images:</strong> The image will be removed.</li>
+                    <li><strong>Description Items:</strong> The key-value pair will be deleted.</li>
+                </ul>
+            </li>
+            <li>Confirm the deletion if prompted.</li>
+        </ol>
+    </div>
+
+    <div class="section" id="special-features">
+        <h2>Special Features</h2>
+        <ul>
+            <li><strong>Structured Descriptions:</strong> Use the <code>key=value</code> format for cleaner, more readable descriptions.</li>
+            <li><strong>Dynamic Image Handling:</strong> Replace outdated images or delete them entirely.</li>
+            <li><strong>Interactive Table:</strong> The table updates dynamically as you add, edit, or delete items.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="tips-for-best-use">
+        <h2>Tips for Best Use</h2>
+        <ul>
+            <li><strong>Use Clear Descriptions:</strong> Stick to the <code>key=value</code> format for consistency.</li>
+            <li><strong>Optimize Images:</strong> Use images with dimensions around <code>100x100px</code> for best results.</li>
+            <li><strong>Regular Updates:</strong> Keep your product data current by editing or deleting outdated information.</li>
+            <li><strong>Backup Your Data:</strong> Copy your data to a spreadsheet or save it elsewhere for safekeeping.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <h3>Common Issues</h3>
+        <ul>
+            <li><strong>Problem:</strong> The "Add item" button doesn’t work.
+                <br><strong>Fix:</strong> Ensure all fields are filled out, including uploading an image.
+            </li>
+            <li><strong>Problem:</strong> Description items don’t format correctly.
+                <br><strong>Fix:</strong> Use the <code>key=value</code> format and ensure each pair is on a new line.
+            </li>
+            <li><strong>Problem:</strong> Images don’t display or can’t be replaced.
+                <br><strong>Fix:</strong> Ensure your image file is in a supported format (e.g., <code>.jpg</code>, <code>.png</code>).
+            </li>
+            <li><strong>Problem:</strong> Deleting or editing doesn’t work.
+                <br><strong>Fix:</strong> Ensure you’ve clicked the <strong>Edit</strong> or <strong>Delete</strong> button first.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="conclusion">
+        <h2>Conclusion</h2>
+        <p>The <strong>Tag Price Generator</strong> is a versatile tool for managing product information. Follow this guide to add, edit, and delete items effectively. Keep your data organized and up-to-date for the best results. Happy tagging!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+Body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(to bottom, lightgray);
+	background-size: cover;
+
+}
+body:hover{
+	/*background: linear-gradient(to left, gray, green, black);*/
+}
+.container{
+
+}
+.download{
+	background: linear-gradient(to top, white, whitesmoke, lightgreen);
+	border-radius: 15px;
+	
+	padding: 15px;
+	height: 90vh;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(to top, lightblue, lightgoldenrodyellow, lightgreen);
+	padding: 10px 15px 10px 10px;
+	width: 45vw;
+	border-radius: 10px;
+}
+.formp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(to crimson, lightblue, lightgoldenrodyellow, lightgreen,lightblue);
+	padding: 10px 15px 10px 10px;
+	width: 45vw;
+	border-radius: 10px;
+}
+input{
+	width: 40vw;
+	padding:10px 15px 10px ;
+	margin: 10px;
+	border: none;
+	align-self: start;
+	border-radius: 7px;
+
+}
+button {
+    grid-column: span 2;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:10px ;
+
+}
+button:hover{
+	background: black;
+}
+label{
+	align-self: start;
+	font-size: 1.2rem;
+}
+.pp1{
+	text-align: center;
+}
+.ppp{
+	text-align: right;
+
+}
+.bb1{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	padding: 15px 10px 10px;
+}
+textarea{
+	height: 70px;
+	width: 300px;
+}
+/* Media query for further responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+
+    form, .formp, .download {
+        width: 100%; /* Ensure sections fit smaller screens */
+    }
+
+    textarea {
+        width: 100%; /* Ensure textarea fits mobile view */
+    }
+}
